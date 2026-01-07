@@ -22,10 +22,14 @@ Prepare virtualization environment and networking for the AD lab.
 
 ## Screenshots
 
-![VMs list](</assets/screenshots/Screenshot from 2026-01-07 20-32-18.png>)
+![VMs list]
+(</assets/screenshots/Screenshot from 2026-01-07 20-32-18.png>)
 
-![DC01 NAT](<../../assets/screenshots/step-01/Screenshot from 2026-01-07 20-32-59.png>)
+![DC01 NAT]
+(</assets/screenshots/step-01/Screenshot from 2026-01-07 20-32-59.png>)
 
-![DC01 LAB](<../../assets/screenshots/step-01/Screenshot from 2026-01-07 20-34-01.png>)
+![DC01 LAB]
+(</assets/screenshots/step-01/Screenshot from 2026-01-07 20-34-01.png>)
 
-![CLIENT01 adapters](<../../assets/screenshots/step-01/Screenshot from 2026-01-07 20-37-51.png>)
+![CLIENT01 adapters]
+(</assets/screenshots/step-01/Screenshot from 2026-01-07 20-37-51.png>)
