@@ -1,1 +1,52 @@
+# Lab Diagram & Design
+
+This document explains the lab topology and network plan.
+
+---
+
+## Topology
+- VirtualBox running 2 VMs:
+  - Windows Server (Domain Controller)
+  - Windows 10 (Client)
+
+Both VMs use two network adapters:
+- Adapter 1: NAT (Internet)
+- Adapter 2: Host-Only (Internal lab network)
+
+---
+
+## Diagram
+![Lab Diagram](diagram.png)
+
+---
+
+## Network Design
+### NAT (Internet)
+- Used only for updates / downloads inside VMs
+- Does not replace internal DNS for AD
+
+### Host-Only (Lab Network)
+- Used for domain communication (AD DS / DNS / join domain / GPO)
+
+---
+
+## IP Plan (Example)
+- Domain Controller (DC):
+  - IP: `192.168.56.10/24`
+  - DNS: `192.168.56.10`
+- Windows 10 Client:
+  - IP: `192.168.56.20/24`
+  - DNS: `192.168.56.10`
+
+> Important: Windows 10 must use the DC as DNS to join the domain.
+
+---
+
+## Why DNS Matters in Active Directory
+Active Directory depends on DNS records (SRV records) to locate:
+- Domain Controllers
+- LDAP services
+- Kerberos authentication services
+
+That is why the client DNS must be the Domain Controller.
 
