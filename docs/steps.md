@@ -10,18 +10,18 @@ This document describes how the lab was built and verified.
   - Windows 10 (Client)
 - Network:
   - Adapter 1: NAT (Internet)
-  - Adapter 2: Host-Only (Lab network)
+  - Adapter 2: Internal Network (LAB)
 
 ---
 
 ## 1) VirtualBox Network Configuration
 **Windows Server VM**
 - Adapter 1: NAT
-- Adapter 2: Host-Only
+- Adapter 2: Internal Network (LAB)
 
 **Windows 10 VM**
 - Adapter 1: NAT
-- Adapter 2: Host-Only
+- Adapter 2: Internal Network (LAB)
 
 Screenshot:
 ![Adapter 1 - NAT](images/01a-virtualbox-adapters.png)
