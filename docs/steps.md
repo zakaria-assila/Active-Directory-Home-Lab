@@ -24,7 +24,11 @@ This document describes how the lab was built and verified.
 - Adapter 2: Host-Only
 
 Screenshot:
-![VirtualBox adapters](images/01-virtualbox-adapters.png)
+![Adapter 1 - NAT](images/01a-virtualbox-adapters.png)
+![Adapter 2 - Internal Network LAB](images/01b-virtualbox-adapters.png)
+![Win10 Network Settings](images/01c-virtualbox-adapters.png)
+![Server Network Settings](images/01d-virtualbox-adapters.png)
+
 
 ---
 
