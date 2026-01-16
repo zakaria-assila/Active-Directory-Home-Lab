@@ -83,6 +83,10 @@ Screenshot:
 **Screenshot: Prerequisites Check**
 ![Prerequisites Check](images/04d-prerequisites-check.png)
 
+![04e Server Manager after promotion](images/04e-post-promotion-server-manager.png)
+![04f ADUC shows lab.local](images/04f-post-promotion-aduc-lab-local.png)
+![04g DNS zones created](images/04g-post-promotion-dns-zones.png)
+
 ---
 
 ## 5) Configure Windows 10 Client + Join Domain
