@@ -27,7 +27,10 @@ Portfolio project: Build a Windows Server Domain Controller, join a Windows 10 c
 ![Roles](docs/images/03-add-roles-adds-dns.png)
 
 3) Promote to Domain Controller + Create domain  
-![Promote DC](docs/images/04-promote-dc-domain.png)
+### Promote to Domain Controller
+![Deployment Configuration](docs/images/04a-deployment-configuration.png)
+![Domain Controller Options](docs/images/04b-domain-controller-options.png)
+![Prerequisites Check](docs/images/04d-prerequisites-check.png)
 
 4) Configure Win10 DNS and join domain  
 ![Win10 DNS](docs/images/05-win10-dns-settings.png)  
