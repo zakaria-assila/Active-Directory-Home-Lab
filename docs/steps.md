@@ -74,7 +74,14 @@ Screenshot:
 6. Restart after promotion completes
 
 Screenshot:
-![Promote to DC + create domain](images/04-promote-dc-domain.png)
+**Screenshot: Deployment Configuration**
+![Deployment Configuration](images/04a-deployment-configuration.png)
+
+**Screenshot: Domain Controller Options**
+![Domain Controller Options](images/04b-domain-controller-options.png)
+
+**Screenshot: Prerequisites Check**
+![Prerequisites Check](images/04d-prerequisites-check.png)
 
 ---
 
