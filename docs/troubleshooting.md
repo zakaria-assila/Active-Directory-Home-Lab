@@ -11,7 +11,7 @@ This page lists the most common issues and fixes when building an AD DS + DNS la
 - Login works locally only
 
 ### Fix
-1. On Windows 10, set **DNS = DC IP** (NOT 8.8.8.8 / router DNS)
+1. On Windows 11, set **DNS = DC IP** (NOT 8.8.8.8 / router DNS)
 2. Verify:
    - `ipconfig /all`
    - `ping <DC-IP>`
@@ -23,7 +23,7 @@ This page lists the most common issues and fixes when building an AD DS + DNS la
 ## 2) Cannot Ping DC / No Connectivity
 ### Symptoms
 - Ping to DC fails
-- Win10 cannot see the domain
+- Win11 cannot see the domain
 
 ### Fix
 1. Ensure both VMs have:
@@ -44,7 +44,7 @@ This page lists the most common issues and fixes when building an AD DS + DNS la
 
 ### Fix
 1. On DC: DNS should point to itself
-2. On Win10: DNS must be DC IP
+2. On Win11: DNS must be DC IP
 3. Test:
    - `nslookup lab.local`
    - `nslookup _ldap._tcp.dc._msdcs.lab.local`
