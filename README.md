@@ -1,11 +1,11 @@
 
 # Active Directory Home Lab (AD DS + DNS)
 
-Portfolio project: Build a Windows Server Domain Controller, join a Windows 10 client, and apply basic admin tasks (OUs, Users, Groups, GPO).
+Portfolio project: Build a Windows Server Domain Controller, join a Windows 11 client, and apply basic admin tasks (OUs, Users, Groups, GPO).
 
 ## Lab Overview
 - Hypervisor: VirtualBox
-- VMs: Windows Server (Domain Controller), Windows 10 (Client)
+- VMs: Windows Server (Domain Controller), Windows 11 (Client)
 - Network: NAT + Host-Only
 - Domain: lab.local (example)
 
@@ -32,8 +32,8 @@ Portfolio project: Build a Windows Server Domain Controller, join a Windows 10 c
 ![Domain Controller Options](docs/images/04b-domain-controller-options.png)
 ![Prerequisites Check](docs/images/04d-prerequisites-check.png)
 
-4) Configure Win10 DNS and join domain  
-![Win10 DNS](docs/images/05-win10-dns-settings.png)  
+4) Configure Win11 DNS and join domain  
+![Win11 DNS](docs/images/05-win10-dns-settings.png)  
 ![Domain Join](docs/images/06-domain-join.png)
 
 5) Create OUs/Users/Groups  
