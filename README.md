@@ -13,8 +13,13 @@ Portfolio project: Build a Windows Server Domain Controller, join a Windows 11 c
 - Adapter 1: NAT (Internet)
 - Adapter 2: Host-Only (Lab network)
 
-![VirtualBox Adapters](docs/images/01-virtualbox-adapters.png)
+![VirtualBox Adapters](docs/images/01a-virtualbox-adapters.png)
 
+![VirtualBox Adapters](docs/images/01b-virtualbox-adapters.png)
+
+![VirtualBox Adapters](docs/images/01c-virtualbox-adapters.png)
+
+![VirtualBox Adapters](docs/images/01d-virtualbox-adapters.png)
 ## IP Plan (example)
 - DC: 192.168.56.10/24 (DNS = 192.168.56.10)
 - Win10: 192.168.56.20/24 (DNS = 192.168.56.10)
