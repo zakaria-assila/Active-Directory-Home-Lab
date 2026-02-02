@@ -7,7 +7,7 @@ This document describes how the lab was built and verified.
 - Hypervisor: VirtualBox
 - VMs:
   - Windows Server (Domain Controller)
-  - Windows 10 (Client)
+  - Windows 11 (Client)
 - Network:
   - Adapter 1: NAT (Internet)
   - Adapter 2: Internal Network (LAB)
@@ -19,14 +19,14 @@ This document describes how the lab was built and verified.
 - Adapter 1: NAT
 - Adapter 2: Internal Network (LAB)
 
-**Windows 10 VM**
+**Windows 11 VM**
 - Adapter 1: NAT
 - Adapter 2: Internal Network (LAB)
 
 Screenshot:
 ![Adapter 1 - NAT](images/01a-virtualbox-adapters.png)
 ![Adapter 2 - Internal Network LAB](images/01b-virtualbox-adapters.png)
-![Win10 Network Settings](images/01c-virtualbox-adapters.png)
+![Win11 Network Settings](images/01c-virtualbox-adapters.png)
 ![Server Network Settings](images/01d-virtualbox-adapters.png)
 
 
@@ -89,19 +89,19 @@ Screenshot:
 
 ---
 
-## 5) Configure Windows 10 Client + Join Domain
+## 5) Configure Windows 11 Client + Join Domain
 
 ### 5.1 Set Client DNS
-On Windows 10:
+On Windows 11:
 - Set **DNS = DC IP**
 - This is required for domain join
 
 Example:
-- Win10: `192.168.56.20/24`
+- Win11: `192.168.56.20/24`
 - DNS: `192.168.56.10`
 
 Screenshot:
-![Win10 DNS settings](images/05-win10-dns-settings.png)
+![Win11 DNS settings](images/05-win10-dns-settings.png)
 
 ### 5.2 Join Domain
 1. Open **System** → **Rename this PC (advanced)** or **Domain/Workgroup**
@@ -153,7 +153,7 @@ Screenshot:
 ---
 
 ## 8) Verification & Testing
-On Windows 10 client:
+On Windows 11 client:
 - Verify network and DNS:
   - `ipconfig /all`
   - `ping <DC-IP>`
