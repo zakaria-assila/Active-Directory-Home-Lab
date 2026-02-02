@@ -43,7 +43,7 @@ Portfolio project: Build a Windows Server Domain Controller, join a Windows 11 c
 ![GPO](docs/images/08-gpo.png)
 
 ## Verification
-- Ping DC from Win10
+- Ping DC from Win11
 - nslookup resolves the domain
 - Domain user can log in
 
