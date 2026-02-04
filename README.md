@@ -6,12 +6,12 @@ Portfolio project: Build a Windows Server Domain Controller, join a Windows 11 c
 ## Lab Overview
 - Hypervisor: VirtualBox
 - VMs: Windows Server (Domain Controller), Windows 11 (Client)
-- Network: NAT + Host-Only
-- Domain: lab.local (example)
+- Network: internal Network + NAT
+- Domain: lab.local 
 
 ## Network Design
 - Adapter 1: NAT (Internet)
-- Adapter 2: Host-Only (Lab network)
+- Adapter 2: internal Network (Lab network)
 
 ![VirtualBox Adapters](docs/images/01a-virtualbox-adapters.png)
 
