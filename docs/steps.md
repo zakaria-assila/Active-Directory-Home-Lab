@@ -112,7 +112,7 @@ Screenshot:
 6. Restart
 
 Screenshot:
-![Domain join](images/06-domain-join.png)
+![Domain join](images/05c-win11-join-domain.png)
 
 ---
 
