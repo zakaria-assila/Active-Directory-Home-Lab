@@ -72,7 +72,7 @@ Portfolio project: Build a Windows Server Domain Controller, join a Windows 11 c
 ## 5. Create OUs / Users / Groups
 
 ### 5.1 OU Structure (Create OU_Users / OU_Computers / OU_Groups)
-![OU structure](docs/06a-aduc-ou-structure.png)
+![OU structure](docs/images/06a-aduc-ou-structure.png)
 
 ### 5.2 Move WIN11 computer object to OU_Computers
 ![Move WIN11 to OU_Computers](docs/06b-aduc-move-win11-to-ou-computers.png)
