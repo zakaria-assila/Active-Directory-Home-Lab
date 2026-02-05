@@ -124,14 +124,13 @@ On the Domain Controller:
    - `OU=Computers`
    - `OU=IT`
 3. Create test users (example):
-   - `user01`, `user02`
+   - `labuser` `
 4. Create groups (example):
-   - `IT-Admins`
-   - `Helpdesk`
+   - `GG_IT_Admins`
 5. Add users to groups as needed
 
 Screenshot:
-![OUs Users Groups](images/07-ou-users-groups.png)
+![OU User Group](images/06e-gg_it_admins-adds-member-labuser.png)
 
 ---
 
