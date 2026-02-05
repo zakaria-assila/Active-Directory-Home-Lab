@@ -101,7 +101,7 @@ Example:
 - DNS: `192.168.56.10`
 
 Screenshot:
-![Win11 DNS settings](images/05-win10-dns-settings.png)
+![Win11 DNS settings](images/05a-win11-ipv4-dns.png)
 
 ### 5.2 Join Domain
 1. Open **System** → **Rename this PC (advanced)** or **Domain/Workgroup**
