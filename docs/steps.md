@@ -147,7 +147,7 @@ Steps:
 4. Run `gpupdate /force` on the client (or restart)
 
 Screenshot:
-![GPO](images/08-gpo.png)
+![GPO](images/07d-win11-gpupdate-force.png)
 
 ---
 
