@@ -75,22 +75,22 @@ Portfolio project: Build a Windows Server Domain Controller, join a Windows 11 c
 ![OU structure](docs/images/06a-aduc-ou-structure.png)
 
 ### 5.2 Move WIN11 computer object to OU_Computers
-![Move WIN11 to OU_Computers](docs/06b-aduc-move-win11-to-ou-computers.png)
+![Move WIN11 to OU_Computers](docs/images/06b-aduc-move-win11-to-ou-computers.png)
 
 ### 5.3 Create domain user (labuser) in OU_Users
-![Create user labuser](docs/06c-aduc-create-user-labuser.png)
+![Create user labuser](docs/images/06c-aduc-create-user-labuser.png)
 
 ### 5.4 Create security group (GG_IT_Admins) in OU_Groups
-![Create group GG_IT_Admins](docs/06d-aduc-create-group-gg_it_admins.png)
+![Create group GG_IT_Admins](docs/images/06d-aduc-create-group-gg_it_admins.png)
 
 ### 5.5 Add labuser to GG_IT_Admins group
-![Add labuser to GG_IT_Admins](docs/06e-gg_it_admins-adds-member-labuser.png)
+![Add labuser to GG_IT_Admins](docs/images/06e-gg_it_admins-adds-member-labuser.png)
 
 ### 5.6 Log in to WIN11 using the domain user (LAB\labuser)
-![Win11 login labuser](docs/06f-win11-login-labuser.png)
+![Win11 login labuser](docs/images/06f-win11-login-labuser.png)
 
 ### 5.7 Verify identity on WIN11 (whoami)
-![whoami labuser](docs/06g-win11-whoami-labuser.png)
+![whoami labuser](docs/images/06g-win11-whoami-labuser.png)
 
 
 6) Apply a basic GPO (example: disable Control Panel)  
