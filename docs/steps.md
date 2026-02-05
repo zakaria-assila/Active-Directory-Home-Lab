@@ -163,4 +163,4 @@ On Windows 11 client:
   - `gpresult /r`
 
 Screenshot:
-![Verification](images/09-verification.png)
+![Verification](docs/images/05b-win11-verify-nslookup-ping.png)
