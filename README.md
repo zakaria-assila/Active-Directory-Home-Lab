@@ -94,7 +94,26 @@ Portfolio project: Build a Windows Server Domain Controller, join a Windows 11 c
 
 
 6) Apply a basic GPO (example: disable Control Panel)  
-![GPO](docs/images/08-gpo.png)
+## Step 7 — GPO: Disable Control Panel (OU_Users)
+
+### 7a) Open Group Policy Management (GPMC)
+![07a - Open GPMC](docs/images/07a-gpmc-open.png)
+
+### 7b) Create + Link GPO to OU_Users
+![07b - Create and link GPO](docs/images/07b-gpmc-create-and-link-gpo-disable-control-panel.png)
+
+### 7c) Edit GPO (Enable “Prohibit access to Control Panel and PC settings”)
+![07c - Enable policy](docs/images/07c-gpme-prohibit-control-panel-enabled.png)
+
+### 7d) Update policy on Win11 (gpupdate)
+![07d - gpupdate force](docs/images/07d-win11-gpupdate-force.png)
+
+### 7e) Verification (gpresult shows GPO applied)
+![07e - gpresult applied](docs/images/07e-win11-gpresult-showing-gpo-applied.png)
+
+### 7f) Proof (Control Panel blocked)
+![07f - Control Panel blocked](docs/images/07f-win11-control-panel-blocked-restrictions-message.png)
+
 
 ## Verification
 - Ping DC from Win11
