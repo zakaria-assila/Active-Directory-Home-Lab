@@ -53,7 +53,8 @@ Portfolio project: Build a Windows Server Domain Controller, join a Windows 11 c
 ![Welcome to the lab.local domain](docs/images/05d-win11-welcome-domain.png)
 
 ### 4.5 Login using domain credentials
-![Domain login](docs/images/05e-win11-domain-login.png)
+!## 4.2 Verify connectivity (ping + nslookup)
+![Verify nslookup + ping](docs/images/05b-win11-verify-nslookup-ping.png)
 
 ### 4.6 Post-join verification (whoami/hostname/ipconfig)
 ![whoami + hostname + ipconfig](docs/images/05f-win11-whoami-hostname-ipconfig.png)
@@ -118,7 +119,8 @@ Portfolio project: Build a Windows Server Domain Controller, join a Windows 11 c
 - nslookup resolves the domain
 - Domain user can log in
 
-![Verification](docs/images/09-verification.png)
+![nslookup + ping](docs/images/05b-win11-verify-nslookup-ping.png)
+![Join domain](docs/images/05c-win11-join-domain.png)
 
 ## What I Learned
 - DNS is critical for Active Directory
