@@ -25,19 +25,19 @@ Portfolio project: Build a Windows Server Domain Controller, join a Windows 11 c
 - Win10: 192.168.56.20/24 (DNS = 192.168.56.10)
 
 ## Implementation (Screenshots)
-1) DC static IP + DNS  
+## 1) DC static IP + DNS  
 ![DC IP/DNS](docs/images/02-dc-ip-dns.png)
 
-2) Install AD DS + DNS  
+## 2) Install AD DS + DNS  
 ![Roles](docs/images/03-add-roles-adds-dns.png)
 
-3) Promote to Domain Controller + Create domain  
+## 3) Promote to Domain Controller + Create domain  
 ### Promote to Domain Controller
 ![Deployment Configuration](docs/images/04a-deployment-configuration.png)
 ![Domain Controller Options](docs/images/04b-domain-controller-options.png)
 ![Prerequisites Check](docs/images/04d-prerequisites-check.png)
 
-4) Configure Win11 DNS and join domain  
+## 4) Configure Win11 DNS and join domain  
 
 
 ### 4.1 Set static IP + DNS on Win11
@@ -68,8 +68,7 @@ Portfolio project: Build a Windows Server Domain Controller, join a Windows 11 c
 ![DNS PTR record](docs/images/05i-dns-ptr-record-win11.png)
 
 
-5) Create OUs/Users/Groups  
-## 5. Create OUs / Users / Groups
+## 5) Create OUs/Users/Groups  
 
 ### 5.1 OU Structure (Create OU_Users / OU_Computers / OU_Groups)
 ![OU structure](docs/images/06a-aduc-ou-structure.png)
@@ -93,26 +92,25 @@ Portfolio project: Build a Windows Server Domain Controller, join a Windows 11 c
 ![whoami labuser](docs/images/06g-win11-whoami-labuser.png)
 
 
-6) Apply a basic GPO (example: disable Control Panel)  
-## Step 7 — GPO: Disable Control Panel (OU_Users)
+ ## 6) Apply a basic GPO (example: disable Control Panel)  
 
-### 7a) Open Group Policy Management (GPMC)
-![07a - Open GPMC](docs/images/07a-gpmc-open.png)
+### 6a) Open Group Policy Management (GPMC)
+![06a - Open GPMC](docs/images/07a-gpmc-open.png)
 
-### 7b) Create + Link GPO to OU_Users
-![07b - Create and link GPO](docs/images/07b-gpmc-create-and-link-gpo-disable-control-panel.png)
+### 6b) Create + Link GPO to OU_Users
+![06b - Create and link GPO](docs/images/07b-gpmc-create-and-link-gpo-disable-control-panel.png)
 
-### 7c) Edit GPO (Enable “Prohibit access to Control Panel and PC settings”)
-![07c - Enable policy](docs/images/07c-gpme-prohibit-control-panel-enabled.png)
+### 6c) Edit GPO (Enable “Prohibit access to Control Panel and PC settings”)
+![06c - Enable policy](docs/images/07c-gpme-prohibit-control-panel-enabled.png)
 
-### 7d) Update policy on Win11 (gpupdate)
-![07d - gpupdate force](docs/images/07d-win11-gpupdate-force.png)
+### 6d) Update policy on Win11 (gpupdate)
+![06d - gpupdate force](docs/images/07d-win11-gpupdate-force.png)
 
-### 7e) Verification (gpresult shows GPO applied)
-![07e - gpresult applied](docs/images/07e-win11-gpresult-showing-gpo-applied.png)
+### 6e) Verification (gpresult shows GPO applied)
+![06e - gpresult applied](docs/images/07e-win11-gpresult-showing-gpo-applied.png)
 
-### 7f) Proof (Control Panel blocked)
-![07f - Control Panel blocked](docs/images/07f-win11-control-panel-blocked-restrictions-message.png)
+### 6f) Proof (Control Panel blocked)
+![06f - Control Panel blocked](docs/images/07f-win11-control-panel-blocked-restrictions-message.png)
 
 
 ## Verification
